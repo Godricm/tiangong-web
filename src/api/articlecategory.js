@@ -1,6 +1,6 @@
 import request from '@/utils/request'
 
-const modulePath = '/crticleCategory'
+const modulePath = '/articleCategory'
 
 const api = {
   articlecategoryList: modulePath + '/page',
