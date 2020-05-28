@@ -61,6 +61,12 @@
         </a-form-item>
 
         <a-form-item
+          label="资源目录"
+          :labelCol="labelCol"
+          :wrapperCol="wrapperCol">
+          <a-input v-decorator="['resourceDirectory', {rules: [{required: false}]}]" />
+        </a-form-item>
+        <a-form-item
           label="权限视图"
           :labelCol="labelCol"
           :wrapperCol="wrapperCol">
