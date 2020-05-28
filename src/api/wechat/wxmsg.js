@@ -1,6 +1,6 @@
 import request from '@/utils/request'
 
-const modulePath = '/manage/wxMsg'
+const modulePath = '/manager/wxMsg'
 
 const api = {
   wxmsgList: modulePath + '/page',
