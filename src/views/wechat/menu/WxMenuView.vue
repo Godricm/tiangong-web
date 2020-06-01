@@ -1,7 +1,6 @@
 <template>
   <div>
     <a-card :bordered="false">
-      <a-button type="primary" icon="plus" v-action:add>新建</a-button>
     </a-card>
   </div>
 </template>

@@ -47,7 +47,7 @@ export const generator = (routerMap, parent) => {
       }
 
       let routerComponent = constantRouterComponents[item.resourceView]
-      if (!routerComponent && item.resourceView && item.resourceDirectory) {
+      if (!routerComponent && item.resourceView) {
         routerComponent = () => import('@/views/' + item.resourceView)
       }
 
